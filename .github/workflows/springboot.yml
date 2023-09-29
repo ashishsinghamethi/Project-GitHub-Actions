@@ -24,7 +24,7 @@ jobs:
     - name: Set up Java
       uses: actions/setup-java@v2
       with:
-        java-version: '*'
+        java-version: '15'
 
     - name: Build with Maven
       run: mvn clean install
